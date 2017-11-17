@@ -1,0 +1,79 @@
+@charset "utf-8";
+@import 'z';
+@import 'morenyanghsi';
+
+@media (min-width:768px){
+    main{
+        width:750px;
+    }
+}
+@media (min-width:992px){
+    main{
+        width:970px;
+    }
+}
+//@media (min-width:992px) and (max-width:1200px){
+//  
+//}
+@media (min-width:1200px){
+    main{
+        width:1200px;
+    }
+}
+main{
+    .pos(r);
+    width:@main-w;
+    .mC();
+    .ma-t(45px);
+    .db();
+    .clearfix();
+    border:1px solid #FFFFCC;
+}
+article[class=main-left]{
+    @pa-l:10px;
+    @l-h:30px;
+    @jnCatainfowidth:165px;
+    .pos(r);
+    .dib();
+    .clearfix();
+    width: @main-le-w;
+    height: @main-le-h;
+    background-color: #FFFFFF;
+    h2{
+        .l-h(@l-h);
+        .pa-l(@pa-l);
+        .font-s16();
+        background-color: black;
+        font-weight: bold;
+        color: #FFFFFF; 
+    }
+    h3{
+        .l-h(24px);
+        width:@jnCatainfowidth - 1;
+        .font-s14();
+    }
+    div[class=jnCatainfo]{
+        .pa-l(@pa-l);
+        .pos(r);
+        border:1px solid #FFFFCC;
+        width:@main-le-w -12;
+        height: @main-le-h - 36;
+    }
+    ul{
+        width:@jnCatainfowidth;
+        .clearfix();
+        li{
+            width:@jnCatainfowidth/2 - 3;
+            .db();
+            .fl();
+//          .pa-t(@pa-l);
+        }
+    }
+    a{
+        .l-h(24px);
+        .text-n();
+        .db();
+        width:inherit;
+        color: black;
+    }
+}

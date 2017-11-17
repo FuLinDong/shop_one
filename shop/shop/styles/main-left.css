@@ -1,0 +1,97 @@
+@charset "utf-8";
+@media (min-width: 768px) {
+  main {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  main {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  main {
+    width: 1200px;
+  }
+}
+main {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 45px;
+  display: block;
+  *zoom: 1;
+  border: 1px solid #FFFFCC;
+}
+main:before,
+main:after {
+  display: table;
+  content: "";
+}
+main:after {
+  clear: both;
+}
+article[class=main-left] {
+  position: relative;
+  display: inline-block;
+  *zoom: 1;
+  width: 200px;
+  height: 524px;
+  background-color: #FFFFFF;
+}
+article[class=main-left]:before,
+article[class=main-left]:after {
+  display: table;
+  content: "";
+}
+article[class=main-left]:after {
+  clear: both;
+}
+article[class=main-left] h2 {
+  height: 30px;
+  line-height: 30px;
+  padding-left: 10px;
+  font-size: 16px;
+  background-color: black;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+article[class=main-left] h3 {
+  height: 24px;
+  line-height: 24px;
+  width: 164px;
+  font-size: 14px;
+}
+article[class=main-left] div[class=jnCatainfo] {
+  padding-left: 10px;
+  position: relative;
+  border: 1px solid #FFFFCC;
+  width: 200px -12;
+  height: 488px;
+}
+article[class=main-left] ul {
+  width: 165px;
+  *zoom: 1;
+}
+article[class=main-left] ul:before,
+article[class=main-left] ul:after {
+  display: table;
+  content: "";
+}
+article[class=main-left] ul:after {
+  clear: both;
+}
+article[class=main-left] ul li {
+  width: 79.5px;
+  display: block;
+  float: left;
+  display: inline;
+}
+article[class=main-left] a {
+  height: 24px;
+  line-height: 24px;
+  text-decoration: none;
+  display: block;
+  width: inherit;
+  color: black;
+}

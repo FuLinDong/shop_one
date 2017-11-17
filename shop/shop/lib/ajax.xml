@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<msg>
+	<student>
+		<id>1</id>
+		<name>付林东1</name>
+		<age>22</age>
+		<message>你好1</message>
+	</student>
+	<student>
+		<id>2</id>
+		<name>付林东2</name>
+		<age>22</age>
+		<message>你好2</message>
+	</student>
+	<student>
+		<id>3</id>
+		<name>付林东3</name>
+		<age>22</age>
+		<message>你好3</message>
+	</student>
+	<student>
+		<id>4</id>
+		<name>付林东4</name>
+		<age>22</age>
+		<message>你好4</message>
+	</student>
+</msg>

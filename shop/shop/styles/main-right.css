@@ -1,0 +1,207 @@
+@charset "utf-8";
+.main-right {
+  float: right;
+  left: -40px;
+  width: 70%;
+  position: relative;
+  *zoom: 1;
+}
+.main-right:before,
+.main-right:after {
+  display: table;
+  content: "";
+}
+.main-right:after {
+  clear: both;
+}
+.main-right .big {
+  float: left;
+  height: 320px;
+  width: 550px;
+  overflow: hidden;
+}
+.main-right .big img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.main-right .big div {
+  width: 550px;
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+  margin: 0;
+  background-color: #4A4A4A;
+  *zoom: 1;
+}
+.main-right .big div:before,
+.main-right .big div:after {
+  display: table;
+  content: "";
+}
+.main-right .big div:after {
+  clear: both;
+}
+.main-right .big div a {
+  display: inline-block;
+  text-align: center;
+  height: 32px;
+  margin-left: 18px;
+  width: 79px;
+  color: #ffffff;
+}
+.main-right .big div a em {
+  cursor: pointer;
+  display: block;
+  height: 16px;
+  overflow: hidden;
+  width: 79px;
+}
+.main-right .big div .aem {
+  text-decoration: none;
+  background-color: #CCCCCC;
+  color: #000000;
+}
+.main-right .ma-right {
+  float: right;
+  display: inline;
+  margin-left: 20px;
+  *zoom: 1;
+  position: relative;
+  border: 1px solid #CCCCCC;
+}
+.main-right .ma-right:before,
+.main-right .ma-right:after {
+  display: table;
+  content: "";
+}
+.main-right .ma-right:after {
+  clear: both;
+}
+.main-right .ma-right img {
+  width: 230px;
+  height: 176px;
+}
+.main-right .ma-right h2 {
+  font-size: 18px;
+  margin-top: 5px;
+}
+.main-right .ma-right li {
+  height: 22px;
+  line-height: 22px;
+  padding-left: 20px;
+}
+.main-right .ma-right a {
+  padding-left: -20px;
+  color: #4A4A4A;
+}
+.main-right .pinpai {
+  position: absolute;
+  top: 340px;
+  width: 790px;
+  *zoom: 1;
+}
+.main-right .pinpai:before,
+.main-right .pinpai:after {
+  display: table;
+  content: "";
+}
+.main-right .pinpai:after {
+  clear: both;
+}
+.main-right .pinpai ul {
+  float: right;
+  display: inline;
+  *zoom: 1;
+}
+.main-right .pinpai ul:before,
+.main-right .pinpai ul:after {
+  display: table;
+  content: "";
+}
+.main-right .pinpai ul:after {
+  clear: both;
+}
+.main-right .pinpai ul li {
+  float: left;
+  display: inline;
+  margin-left: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+.main-right .p-head {
+  margin-top: 8px;
+}
+.main-right .p-head h3,
+.main-right .p-head li {
+  font-size: 16px;
+  display: inline-block;
+}
+.main-right .p-head h3 {
+  margin-left: 10px;
+}
+.main-right .p-head li {
+  margin-right: 10px;
+  cursor: pointer;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #CCFFCC;
+}
+.main-right .p-head li:hover {
+  cursor: pointer;
+  background-color: azure;
+  color: darkkhaki;
+}
+.main-right .cc {
+  margin-top: 5px;
+  width: 790px;
+  height: 0.8px;
+  background-color: #FFFFFF;
+}
+.main-right .jnBrandContent {
+  width: 790px;
+  overflow: hidden;
+  height: 165px;
+  position: relative;
+  margin: 8px 5px;
+}
+.main-right .jnBrandContent .jnBrandList {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 3200px;
+}
+.main-right .jnBrandContent li {
+  float: left;
+  display: inline;
+  height: 188px;
+  width: 185px;
+  overflow: hidden;
+  padding: 0 5px;
+  position: relative;
+}
+.main-right .jnBrandContent img {
+  position: absolute;
+  left: 5px;
+  top: 0;
+}
+.focus {
+  border-radius: 0;
+}
+.active {
+  background-color: #CCCCCC;
+}
+.newtitle {
+  border: 1px solid #F2DEDE;
+  background-color: #F7F7F9;
+  font-size: 12px;
+}
+.cursor {
+  cursor: pointer;
+  background-color: azure;
+  color: darkkhaki;
+}
+article[class=check-ajax] {
+  clear: both;
+  margin-top: 40px;
+}
